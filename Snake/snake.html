@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Snake</title>
+	<h1 style = "font-size: 40; color: red; text-align: center;">Welcome to Snake! <img height="100", width="100", src = 'https://fbcd.co/product-lg/700477f9bc157fcf54caf75c5baa8476_resize.jpg'></img></h1>
+	<style>
+	ul {
+	  list-style-type: none;
+	  margin: 0;
+	  padding: 0;
+	  overflow: hidden;
+	  background-color: #333;
+	}
+
+	li {
+	  float: left;
+	}
+
+	li a {
+	  display: block;
+	  color: white;
+	  text-align: center;
+	  padding: 14px 16px;
+	  text-decoration: none;
+	}
+
+	li a:hover {
+	  background-color: #111;
+	}
+	</style>
+	<ul>
+	  <li><a href="http://pictureofacorndog.epizy.com/main.html?i=1">My other work</a></li>
+	  <li><a href="about.html">About</a></li>
+	</ul>
+	<div style="display: none;">
+		<img id = "head" src="assets\head.png">
+		<img id = "headright" src="assets\headright.png">
+		<img id = "headdown" src="assets\headdown.png">
+		<img id = "headleft" src="assets\headleft.png">
+		<img id = "bodyhoriz" src="assets\bodyhoriz.png">
+		<img id = "bodyvert" src="assets\bodyvert.png">
+	</div>
+	<canvas id="myCanvas" width="1280" height="720"></canvas>
+	<script src= 'snake.js'></script>
+</head>
+</html>
